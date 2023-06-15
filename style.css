@@ -151,7 +151,7 @@ h3{
 #lista-noticias li{
     padding: 2px;
     border-bottom: 1px solid #ccc;
-    height: 65px;
+    height: 62px;
 }
 #lista-noticias li a img{
     float: left;
@@ -159,7 +159,17 @@ h3{
 }
 #lista-noticias li a{
     text-decoration: none;
+}
+#lista-noticias li a h3{
     font-size: 0.8em;
+    padding: 0;
+    color: blue;
+}
+#lista-noticias li a p{
+    font-size: 0.7em;
+}
+#lista-noticias li:hover{
+    background: #eee;
 }
 #container-rodape{
     background: #294c71;
